@@ -5,24 +5,24 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="text-white">
       <div className="container mx-auto flex justify-between items-center p-4">
         <a href="#" className="text-2xl font-bold">
-          MyBrand
+          MeeraLoom
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">
-          <a href="#" className="hover:text-gray-300">
+        <div className="hidden md:flex space-x-6 ">
+          <a href="#" className="hover:text-gray-300 ListDesign">
             Home
           </a>
-          <a href="#" className="hover:text-gray-300">
+          <a href="#" className="hover:text-gray-300 ListDesign">
             About
           </a>
-          <a href="#" className="hover:text-gray-300">
+          <a href="#" className="hover:text-gray-300 ListDesign">
             Services
           </a>
-          <a href="#" className="hover:text-gray-300">
+          <a href="#" className="hover:text-gray-300 ListDesign">
             Contact
           </a>
         </div>
