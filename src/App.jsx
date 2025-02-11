@@ -41,12 +41,16 @@ const Footer = () => (
 const App = () => (
   <Router>
     <Navbar />
-    <Routes>
+    <Home />
+    <Services />
+    <About />
+    <Contact />
+    {/* <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/services" element={<Services />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-    </Routes>
+    </Routes> */}
     <Footer />
   </Router>
 );
