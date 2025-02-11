@@ -1,4 +1,17 @@
 nav{
+    background-color: #4f4b4bd9;
     position: fixed;
-    width: 100%;
+    width: 100%; 
+    z-index: 50;
+}
+.ListDesign{
+    border: 1px solid grey;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.ListDesign:hover{
+      background-color: rgb(232, 239, 135);
+      transition: .3s ease-in;
+      color: black;
 }
