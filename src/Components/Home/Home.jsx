@@ -40,7 +40,7 @@ const Home = () => {
       </Slider>
 
       {/* Slide Navigation Buttons */}
-      <button
+      {/* <button
         className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition"
         onClick={() => sliderRef.current.slickPrev()}
       >
@@ -51,7 +51,7 @@ const Home = () => {
         onClick={() => sliderRef.current.slickNext()}
       >
         <ChevronRight size={24} />
-      </button>
+      </button> */}
 
       {/* Content Overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-black bg-opacity-50 text-white p-6">
