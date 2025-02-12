@@ -11,7 +11,7 @@ nav{
 }
 
 .ListDesign:hover{
-      background-color: rgb(232, 239, 135);
+      background-color: rgb(102, 156, 254);
       transition: .3s ease-in;
       color: black;
 }
